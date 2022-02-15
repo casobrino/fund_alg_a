@@ -5,3 +5,4 @@ if __name__ == "__main__":
         print(f"{numero} Es un numero par")
     else:
         print(f"{numero} Es un numero inpar")
+
