@@ -1,22 +1,24 @@
 #include <stdio.h>
+int main(){
+    int cont = 100;
+    printf("Hasta que numero deseas contar:\n");
+    scanf("%d",&cont);
 
-int main()
-{
-    int cont = 0;
-    printf("Hasta que numero deseas contar: ");
-    scanf("%d", &cont);
-
+    printf("Numeros pares: \n");
     for (int i = 0; i <= cont; i++){
-        printf("Numeros pares: \n");
         if (i % 2 == 0){
-            printf("%d", i);
+            printf("%d\n", i);
         }
     }
-
-    for (int i = 0; i <= cont; i++){
-        printf("Numeros impares: \n");
-        if (i % 2 != 0){
-            printf("%d", i);
+    
+    printf("Números impares: \n");
+    int ind=0;
+    while(ind != cont){
+        if(ind % 2 != 0){
+            printf("%d\n", ind);
         }
+        ind++;
     }
+    
+    return 0;
 }
