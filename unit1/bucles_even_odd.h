@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(){
     int cont = 100;
     printf("Hasta que numero deseas contar:\n");
